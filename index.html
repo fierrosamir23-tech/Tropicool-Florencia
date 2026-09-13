@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0f6b3b">
-  <meta name="description" content="Helados, postres y comidas rápidas en Florencia, Caquetá. Pide fácil por WhatsApp en Tropicool Florencia.">
-  <meta property="og:title" content="Tropicool Florencia | Heladería y comidas rápidas">
-  <meta property="og:description" content="Un antojo para cada momento: helados, malteadas, waffles y hamburguesas. Pide por WhatsApp.">
+  <meta name="theme-color" content="#173d2b">
+  <meta name="description" content="Tropicool Florencia: heladería, postres, frutas, granizados y comidas rápidas en la Zona Rosa de Florencia, Caquetá. Pide por WhatsApp.">
+  <meta property="og:title" content="Tropicool Florencia | Sabor que se disfruta">
+  <meta property="og:description" content="Conoce nuestra nueva sede y encuentra tu próximo antojo. Escríbenos por WhatsApp.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://fierrosamir23-tech.github.io/Tropicool-Florencia/">
-  <meta property="og:image" content="https://fierrosamir23-tech.github.io/Tropicool-Florencia/assets/images/malteada-burguer.webp">
+  <meta property="og:image" content="https://fierrosamir23-tech.github.io/Tropicool-Florencia/assets/images/mega-brownie.webp">
   <title>Tropicool Florencia | Heladería y comidas rápidas</title>
   <link rel="canonical" href="https://fierrosamir23-tech.github.io/Tropicool-Florencia/">
   <link rel="icon" href="assets/images/logo.webp" type="image/webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700;9..144,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,199 +24,157 @@
   <header class="site-header" id="inicio">
     <div class="container nav-wrap">
       <a class="brand" href="#inicio" aria-label="Tropicool Florencia, volver al inicio">
-        <img src="assets/images/logo.webp" alt="Logo de Tropicool Florencia" width="58" height="58">
-        <span><strong>Tropicool</strong><small>Florencia</small></span>
+        <img src="assets/images/logo.webp" alt="Tropicool" width="150" height="92">
       </a>
-
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
-
       <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
-        <a href="#favoritos">Favoritos</a>
-        <a href="#experiencia">Nosotros</a>
+        <a href="#antojos">Antojos</a>
+        <a href="#sede">Nueva sede</a>
         <a href="#visitanos">Visítanos</a>
-        <a class="button button-small wa-link" data-message="Hola, vi la página de Tropicool Florencia y quiero hacer un pedido." href="#">Pedir por WhatsApp</a>
+        <a class="button button-small wa-link" data-message="Hola, vi la página de Tropicool Florencia y quiero conocer el menú." href="#">Pedir por WhatsApp</a>
       </nav>
     </div>
   </header>
 
   <main id="contenido">
     <section class="hero">
-      <div class="hero-orb orb-one"></div>
-      <div class="hero-orb orb-two"></div>
-      <div class="container hero-grid">
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="container hero-inner">
         <div class="hero-copy reveal">
-          <span class="eyebrow">Hecho para disfrutar en Florencia</span>
-          <h1>Tu momento más <em>rico</em> empieza aquí.</h1>
-          <p>Helados, malteadas, waffles y comidas rápidas para convertir cualquier día en un buen plan.</p>
+          <span class="eyebrow eyebrow-light">Heladería · Postres · Comidas rápidas</span>
+          <h1>Sabores que hacen más <em>cool</em> tu día.</h1>
+          <p>Un lugar tropical para encontrarnos, compartir y disfrutar antojos dulces y salados en el corazón de Florencia.</p>
           <div class="hero-actions">
-            <a class="button button-primary wa-link" data-message="Hola, vi la página de Tropicool Florencia y quiero conocer el menú y hacer un pedido." href="#">Ver menú por WhatsApp</a>
-            <a class="text-link" href="#favoritos">Descubrir favoritos <span aria-hidden="true">↓</span></a>
+            <a class="button button-lime wa-link" data-message="Hola, vi la página de Tropicool Florencia y quiero hacer un pedido." href="#">Quiero pedir</a>
+            <a class="button button-ghost" href="#sede">Conocer la nueva sede</a>
           </div>
-          <div class="hero-notes" aria-label="Información destacada">
-            <span>✓ Atención todos los días</span>
-            <span>✓ Pedidos por WhatsApp</span>
+          <div class="hero-meta">
+            <span><b>01</b> Productos para todos los antojos</span>
+            <span><b>02</b> Pedidos directos por WhatsApp</span>
           </div>
         </div>
-
-        <div class="hero-visual reveal">
-          <div class="hero-card hero-card-main">
-            <img src="assets/images/malteada-burguer.webp" alt="Malteadas de chocolate de Tropicool Florencia" width="992" height="986" fetchpriority="high">
-          </div>
-          <div class="hero-card hero-card-small">
-            <img src="assets/images/hamburguesa.webp" alt="Hamburguesa con queso y vegetales" width="992" height="676">
-          </div>
-          <div class="taste-badge"><strong>2 mundos</strong><span>Dulce + salado</span></div>
+        <div class="hero-product reveal">
+          <div class="product-halo"></div>
+          <img src="assets/images/mega-brownie.webp" alt="Postre tropical de Tropicool con helado, frutas y brownie" width="1200" height="1200" fetchpriority="high">
+          <div class="hero-stamp"><strong>Florencia</strong><span>Caquetá</span></div>
         </div>
       </div>
-      <div class="marquee" aria-hidden="true">
-        <div>Helados ✦ Waffles ✦ Malteadas ✦ Hamburguesas ✦ Ensaladas de frutas ✦ Granizados ✦</div>
-      </div>
+      <a class="scroll-cue" href="#antojos" aria-label="Bajar a nuestros antojos"><span></span>Descubre más</a>
     </section>
 
-    <section class="favorites section" id="favoritos">
+    <section class="intro section" id="antojos">
       <div class="container">
         <div class="section-heading reveal">
           <div>
-            <span class="eyebrow">Nuestros favoritos</span>
-            <h2>Antojos que siempre provocan</h2>
+            <span class="eyebrow">Elige tu momento</span>
+            <h2>Hay un antojo esperando por ti.</h2>
           </div>
-          <p>Una selección de los sabores más pedidos. Precios y disponibilidad pueden variar.</p>
+          <p>Opciones dulces, frescas y saladas preparadas para disfrutar aquí o pedir por WhatsApp.</p>
         </div>
-
-        <div class="product-grid">
-          <article class="product-card featured reveal">
-            <div class="product-image"><img src="assets/images/malteada-burguer.webp" alt="Malteada Burguer" loading="lazy"></div>
-            <div class="product-content">
-              <span class="product-tag">Especialidad</span>
-              <h3>Malteada Burguer</h3>
-              <p>Mini hamburguesa y malteada de 12 oz del sabor que elijas.</p>
-              <div><strong>$19.000</strong><a class="order-link wa-link" data-message="Hola, quiero pedir una Malteada Burguer." href="#">Pedir →</a></div>
-            </div>
+        <div class="bento-grid">
+          <article class="bento-card bento-large reveal">
+            <img src="assets/images/hamburguesa.webp" alt="Hamburguesa doble con queso de Tropicool" loading="lazy">
+            <div class="card-overlay"><span>Para comer rico</span><h3>Hamburguesas artesanales</h3><a class="wa-link" data-message="Hola, quiero conocer las hamburguesas disponibles en Tropicool." href="#">Consultar opciones →</a></div>
           </article>
-
-          <article class="product-card reveal">
-            <div class="product-image"><img src="assets/images/mega-brownie.webp" alt="Mega Brownie" loading="lazy"></div>
-            <div class="product-content">
-              <span class="product-tag">Dulce</span>
-              <h3>Mega Brownie</h3>
-              <p>Brownie con chocolate, Milo y malteada de 12 oz.</p>
-              <div><strong>$21.000</strong><a class="order-link wa-link" data-message="Hola, quiero pedir un Mega Brownie." href="#">Pedir →</a></div>
-            </div>
+          <article class="bento-card reveal">
+            <img src="assets/images/frutas.webp" alt="Postres con fresas, frutas y crema" loading="lazy">
+            <div class="card-overlay"><span>Fresco y delicioso</span><h3>Frutas &amp; postres</h3><a class="wa-link" data-message="Hola, quiero conocer los postres y ensaladas de frutas disponibles." href="#">Consultar opciones →</a></div>
           </article>
-
-          <article class="product-card reveal">
-            <div class="product-image"><img src="assets/images/mega-waffle.webp" alt="Mega Waffle" loading="lazy"></div>
-            <div class="product-content">
-              <span class="product-tag">Waffles</span>
-              <h3>Mega Waffle</h3>
-              <p>Trocitos de waffle con chocolate y malteada de 12 oz.</p>
-              <div><strong>$18.000</strong><a class="order-link wa-link" data-message="Hola, quiero pedir un Mega Waffle." href="#">Pedir →</a></div>
-            </div>
+          <article class="bento-card reveal">
+            <img src="assets/images/granizados.webp" alt="Granizados tropicales de colores" loading="lazy">
+            <div class="card-overlay"><span>Para refrescarte</span><h3>Granizados tropicales</h3><a class="wa-link" data-message="Hola, quiero conocer los sabores de granizados disponibles." href="#">Consultar sabores →</a></div>
           </article>
-
-          <article class="product-card reveal">
-            <div class="product-image"><img src="assets/images/tropiko-burger.webp" alt="Hamburguesa Tropiko" loading="lazy"></div>
-            <div class="product-content">
-              <span class="product-tag">De la casa</span>
-              <h3>Hamburguesa Tropiko</h3>
-              <p>Carne desmechada, huevo, chorizo, tocineta, queso y salsa de la casa.</p>
-              <div><strong>$20.000</strong><a class="order-link wa-link" data-message="Hola, quiero pedir una Hamburguesa Tropiko." href="#">Pedir →</a></div>
-            </div>
+          <article class="bento-card bento-wide reveal">
+            <img src="assets/images/mega-waffle.webp" alt="Obleas rellenas con fruta y crema" loading="lazy">
+            <div class="card-overlay"><span>Un clásico con mucho sabor</span><h3>Obleas irresistibles</h3><a class="wa-link" data-message="Hola, quiero conocer las obleas disponibles en Tropicool." href="#">Consultar opciones →</a></div>
           </article>
-
-          <article class="product-card reveal">
-            <div class="product-image"><img src="assets/images/ranchera.webp" alt="Hamburguesa Ranchera" loading="lazy"></div>
-            <div class="product-content">
-              <span class="product-tag">Comida rápida</span>
-              <h3>Ranchera</h3>
-              <p>Carne, huevo, maíz, chorizo, queso, vegetales y salsa de la casa.</p>
-              <div><strong>$16.000</strong><a class="order-link wa-link" data-message="Hola, quiero pedir una Hamburguesa Ranchera." href="#">Pedir →</a></div>
-            </div>
-          </article>
-
-          <article class="menu-card reveal">
-            <span class="eyebrow">Hay mucho más</span>
-            <h3>¿Qué se te antoja hoy?</h3>
-            <ul>
-              <li>Sundaes y helados</li>
-              <li>Ensaladas de frutas</li>
-              <li>Bubble waffles</li>
-              <li>Perros y sándwiches</li>
-              <li>Granizados y bebidas</li>
-            </ul>
-            <a class="button button-light wa-link" data-message="Hola, quiero ver el menú completo de Tropicool Florencia." href="#">Pedir el menú completo</a>
-          </article>
+        </div>
+        <div class="menu-cta reveal">
+          <div><span class="eyebrow">¿Todavía no decides?</span><h3>Cuéntanos qué se te antoja y te ayudamos a elegir.</h3></div>
+          <a class="button button-dark wa-link" data-message="Hola, quiero ver el menú completo y recibir una recomendación." href="#">Ver menú por WhatsApp</a>
         </div>
       </div>
     </section>
 
-    <section class="experience section" id="experiencia">
-      <div class="container experience-grid">
-        <div class="experience-gallery reveal">
-          <figure class="gallery-large"><img src="assets/images/hamburguesa.webp" alt="Hamburguesa de la casa" loading="lazy"></figure>
-          <figure class="gallery-small"><img src="assets/images/mega-brownie.webp" alt="Malteada y brownie de chocolate" loading="lazy"></figure>
+    <section class="sede section" id="sede">
+      <div class="container sede-grid">
+        <div class="sede-copy reveal">
+          <span class="eyebrow eyebrow-light">Nuestra nueva casa</span>
+          <h2>Un espacio natural, cálido y muy Tropicool.</h2>
+          <p>Diseñamos una sede para que cada visita se sienta especial: vegetación, luz, texturas naturales y rincones hechos para conversar, celebrar y volver.</p>
+          <ul class="sede-points">
+            <li><span>01</span>Ambientes interiores y al aire libre</li>
+            <li><span>02</span>Un plan para compartir en familia o con amigos</li>
+            <li><span>03</span>En plena Zona Rosa de Florencia</li>
+          </ul>
+          <a class="text-link text-link-light" href="#visitanos">Ver cómo llegar <span aria-hidden="true">↘</span></a>
         </div>
-        <div class="experience-copy reveal">
-          <span class="eyebrow">Sabor para compartir</span>
-          <h2>Dos antojos, un solo lugar.</h2>
-          <p>En Tropicool encuentras ese postre que alegra la tarde y la comida rápida que completa el plan. Ven con familia, amigos o pide directamente por WhatsApp.</p>
-          <div class="feature-list">
-            <div><span>01</span><p><strong>Dulce</strong>Helados, frutas, waffles y malteadas.</p></div>
-            <div><span>02</span><p><strong>Salado</strong>Hamburguesas, perros y sándwiches.</p></div>
-            <div><span>03</span><p><strong>Fácil</strong>Consulta el menú y pide por WhatsApp.</p></div>
-          </div>
+        <div class="sede-gallery reveal">
+          <figure class="sede-main"><img src="assets/images/local.webp" alt="Terraza de la nueva sede de Tropicool Florencia" loading="lazy"></figure>
+          <figure class="sede-small"><img src="assets/images/local-interior.webp" alt="Interior moderno de Tropicool Florencia" loading="lazy"></figure>
+          <span class="sede-badge">Nueva<br>sede</span>
         </div>
       </div>
+    </section>
+
+    <section class="story section">
+      <div class="container story-grid">
+        <div class="story-video reveal">
+          <video controls muted playsinline preload="metadata" poster="assets/images/video-poster.jpg" aria-label="Recorrido por la nueva sede de Tropicool Florencia">
+            <source src="assets/images/nueva-sede.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+          </video>
+          <span class="video-caption">Un recorrido por nuestra nueva sede</span>
+        </div>
+        <div class="story-copy reveal">
+          <span class="eyebrow">Ven a conocernos</span>
+          <h2>Más que un antojo, un lugar para disfrutar.</h2>
+          <p>Tropicool combina productos llenos de sabor con una experiencia fresca y cercana. Aquí caben una tarde tranquila, una celebración o ese gusto que no necesita explicación.</p>
+          <div class="story-photo"><img src="assets/images/local-patio.webp" alt="Zona exterior de la nueva sede de Tropicool" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-strip" aria-label="Galería de productos Tropicool">
+      <figure><img src="assets/images/burger-guacamole.webp" alt="Hamburguesa con guacamole" loading="lazy"></figure>
+      <figure><img src="assets/images/malteada-burguer.webp" alt="Postre Tropicool con frutas y crema" loading="lazy"></figure>
+      <figure><img src="assets/images/postres.webp" alt="Variedad de postres Tropicool para compartir" loading="lazy"></figure>
+      <figure><img src="assets/images/ranchera.webp" alt="Hamburguesa con maíz y carne" loading="lazy"></figure>
     </section>
 
     <section class="visit section" id="visitanos">
-      <div class="container visit-card reveal">
-        <div class="visit-copy">
-          <span class="eyebrow eyebrow-light">Te esperamos</span>
-          <h2>Tu próximo antojo está en Florencia.</h2>
-          <div class="visit-details">
-            <div><span>Ubicación</span><strong>Cra. 12 #6-109 · Barrio Juan XXIII · Zona Rosa<br>Florencia, Caquetá</strong></div>
-            <div><span>Heladería</span><strong>Todos los días<br>10:00 a. m. – 10:00 p. m.</strong></div>
-            <div><span>Comidas rápidas</span><strong>Todos los días<br>4:00 p. m. – 10:00 p. m.</strong></div>
-          </div>
+      <div class="container visit-shell reveal">
+        <div class="visit-content">
+          <span class="eyebrow eyebrow-light">Estamos en Florencia</span>
+          <h2>Tu próximo plan tiene sabor tropical.</h2>
+          <p>Visítanos en nuestra nueva ubicación o escríbenos para consultar el menú, disponibilidad y horario de atención.</p>
+          <address>Cra. 12 #6-109 · Barrio Juan XXIII<br>Zona Rosa · Florencia, Caquetá</address>
           <div class="visit-actions">
-            <a class="button button-yellow wa-link" data-message="Hola, ¿me compartes la ubicación exacta de Tropicool Florencia?" href="#">Escribir por WhatsApp</a>
-            <a class="button button-outline" href="https://www.google.com/maps/search/?api=1&amp;query=Cra%2012%20%236-109%20Barrio%20Juan%20XXIII%20Zona%20Rosa%20Florencia%20Caquet%C3%A1" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="button button-lime wa-link" data-message="Hola, quiero hacer un pedido en Tropicool Florencia." href="#">Pedir por WhatsApp</a>
+            <a class="button button-outline" href="https://www.google.com/maps/search/?api=1&amp;query=Cra%2012%20%236-109%20Barrio%20Juan%20XXIII%20Zona%20Rosa%20Florencia%20Caquet%C3%A1" target="_blank" rel="noopener">Abrir ubicación</a>
           </div>
         </div>
-        <div class="visit-art" aria-hidden="true">
-          <span class="sun"></span><span class="leaf leaf-one"></span><span class="leaf leaf-two"></span>
-          <img src="assets/images/logo.webp" alt="">
-        </div>
-      </div>
-    </section>
-
-    <section class="social-proof">
-      <div class="container social-row">
-        <p><strong>¿Ya elegiste tu favorito?</strong><span>Escríbenos y arma tu pedido.</span></p>
-        <div class="social-links">
-          <a href="https://web.facebook.com/profile.php?id=100063872040085" target="_blank" rel="noopener" aria-label="Facebook de Tropicool Florencia">Facebook ↗</a>
-          <a href="https://www.instagram.com/tropicool_2020/" target="_blank" rel="noopener" aria-label="Instagram de Tropicool Florencia">Instagram ↗</a>
-        </div>
+        <div class="visit-logo" aria-hidden="true"><img src="assets/images/logo.webp" alt=""></div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-grid">
-      <a class="brand brand-footer" href="#inicio"><img src="assets/images/logo.webp" alt="" width="58" height="58"><span><strong>Tropicool</strong><small>Florencia</small></span></a>
-      <p>Helados, postres y comidas rápidas en Florencia, Caquetá.</p>
-      <p>© <span id="year"></span> Tropicool Florencia. Todos los derechos reservados.</p>
+    <div class="container footer-top">
+      <a class="brand brand-footer" href="#inicio"><img src="assets/images/logo.webp" alt="Tropicool" width="150" height="92"></a>
+      <p>Heladería, postres y comidas rápidas<br>en Florencia, Caquetá.</p>
+      <div class="footer-links"><a href="#antojos">Antojos</a><a href="#sede">Nueva sede</a><a href="https://web.facebook.com/profile.php?id=100063872040085" target="_blank" rel="noopener">Facebook ↗</a></div>
     </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Tropicool Florencia</span><span>Hecho para disfrutar</span></div>
   </footer>
 
   <a class="floating-wa wa-link" data-message="Hola, vi la página de Tropicool Florencia y quiero hacer un pedido." href="#" aria-label="Hacer un pedido por WhatsApp">
     <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.1 3A12.9 12.9 0 0 0 5 22.5L3.2 29l6.7-1.7A13 13 0 1 0 16.1 3Zm0 23.6a10.7 10.7 0 0 1-5.5-1.5l-.4-.2-4 .9 1.1-3.8-.3-.4a10.7 10.7 0 1 1 9.1 5Zm5.9-8c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-1.9-.9-3.2-1.7-4.5-3.9-.3-.5.3-.5.9-1.7.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.6-.5-.8-.5h-.7c-.2 0-.6.1-.9.4-1 1-.9 2.4-.9 2.5 0 1.5 1.1 3 1.3 3.2.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4Z"/></svg>
     <span>Pedir</span>
   </a>
-
   <script src="script.js"></script>
 </body>
 </html>
