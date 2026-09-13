@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fierrosamir23-tech.github.io/Tropicool-Florencia/sitemap.xml
